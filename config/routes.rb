@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-  resource :styleguides, :as => :styleguide, :controller => 'flutie/styleguides', :only => [:show]
+  resource :styleguides, :as => :styleguide, :controller => 'styleguides/styleguides', :only => [:show]
 
 end

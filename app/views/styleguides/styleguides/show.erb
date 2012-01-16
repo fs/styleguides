@@ -1,0 +1,10 @@
+<div>
+
+<% if @styleguides %>
+
+  <% @styleguides.each do |styleguide| %>
+    <%= render :file => styleguide %>
+  <% end %>
+<% end %>
+
+</div>
