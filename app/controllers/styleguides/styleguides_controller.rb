@@ -1,4 +1,4 @@
-module Flutie
+module Styleguides
 
   class StyleguidesController < ApplicationController
 
@@ -6,7 +6,6 @@ module Flutie
 
     def show
       @styleguides = styleguides
-      render :layout => "flutie" if params[:flutie] == "true"
     end
 
     private
